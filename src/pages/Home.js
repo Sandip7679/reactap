@@ -23,9 +23,9 @@ const Home = () => {
                     New Project
                 </button>}
             </div>
-            <SearchIcon
+            {/* <SearchIcon
                 imageClass='w-5 h-5 absolute left-2 top-[1px]  md:top-2'
-            />
+            /> */}
         </div>
     );
 }
