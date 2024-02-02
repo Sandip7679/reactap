@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import Dropdown, { SearchIcon } from '../components/svgIcons';
+// import Dropdown, { SearchIcon } from '../components/svgIcons';
 
 const Home = () => {
     // const [contactModalStatus, setcontactModalStatus] = useState({ show: false, data: {} });
@@ -23,9 +23,9 @@ const Home = () => {
                     New Project
                 </button>
             </div>
-            <SearchIcon
+            {/* <SearchIcon
                 imageClass='w-5 h-5 absolute left-2 top-[1px]  md:top-2'
-            />
+            /> */}
         </div>
     );
 }
