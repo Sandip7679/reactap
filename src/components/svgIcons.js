@@ -23,10 +23,10 @@ export const Dropdown = ({ classname }) => {
 export const SearchIcon = ({ imageClass }) => {
     return (
         <div className='relative'>
-            {/* <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class={imageClass ? imageClass : 'w-5 h-5 absolute left-2 top-7'}>
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class={imageClass ? imageClass : 'w-5 h-5 absolute left-2 top-7'}>
                 <path stroke-linecap="round" stroke-linejoin="round" d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z" />
-            </svg> */}
-            <i class={"fa-solid fa-magnifying-glass "+imageClass}></i>
+            </svg>
+            {/* <i class={"fa-solid fa-magnifying-glass "+imageClass}></i> */}
         </div>
 
 
