@@ -1,5 +1,5 @@
 import React, { useState,useEffect } from 'react';
-// import Dropdown, { SearchIcon } from '../components/svgIcons';
+import Dropdown, { SearchIcon } from '../components/svgIcons';
 
 const Home = () => {
     const [contactModalStatus, setcontactModalStatus] = useState({ show: false, data: {} });
