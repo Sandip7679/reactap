@@ -9,6 +9,7 @@ const Home = () => {
   return (
     <div>
       Home
+      Hello World
     </div>
   );
 }
