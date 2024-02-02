@@ -1,4 +1,5 @@
-import React,{useState} from 'react';
+import { useState } from "react";
+import React from 'react';
 
 const Home = () => {
     // const [contactModalStatus, setcontactModalStatus] = useState({ show: false, data: {} });
